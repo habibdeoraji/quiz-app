@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@100;200;300;400&family=Poppins:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Source+Sans+Pro&display=swap');
+
+
+body {
+    margin: 0;
+    background-color: #54c3f0;
+}
+
+#header {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    color: #fad744;
+    text-shadow: 2px 5px #2b3252;
+    font-size: 90px;
+    font-family: 'Caveat Brush', cursive;
+}
+
+#result-card {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(6, 18, 22, 0.872);
+    z-index: 10;
+    top: 0;
+    display: none;
+}
+
+
+.quiz-question {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fedb45;
+}
+
+.option-value {
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 40px;
+    font-size: 14px;
+    display: inline-block;
+    color: #e8d645;
+}
+
+.option-value span {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.option-value input {
+    cursor: pointer;
+}
+
+#result {
+    background-color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 100;
+    padding: 40px;
+    opacity: 1;
+    margin-top: 200px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#result h2 {
+    font-size: 48px;
+    margin-top: 30px 10px 25px 10px;
+    font-weight: 500
+}
+
+#score {
+    font-size: 40px;
+    margin: 10px;
+    font-weight: 600
+}
+
+#cancel-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 24px;
+    padding: 10px;
+    background-color: rgba(230, 225, 225, 0.742);
+    width: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    margin: 0;
+    padding: 5px;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+}
+
+#cancel-icon:hover {
+    background-color: rgb(111, 0, 6);
+    color: white
+}
+
+#main-container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    min-width: 600px;
+    background-color: #2b3252;
+    min-height: 400px;
+    color: yellow;
+    padding: 20px 20px 100px 20px;
+    margin-bottom: 40px;
+    font-family: Verdana;
+    border-radius: 10px;
+}
+
+#submit-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    font-size: 24px;
+    padding: 5px 10px;
+    min-width: 120px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transform: translateX(-50%);
+    background-color: #bea646
+}
+
+#submit-button:hover {
+    background-color: #fad744
+}
